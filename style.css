@@ -1,0 +1,103 @@
+body {
+margin:0;
+font-family:Arial;
+background:white;
+}
+
+header{
+background:black;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1 {
+color:orangered;
+}
+
+nav ul {
+list-style:none;
+padding:0;
+}
+
+nav li {
+display:inline;
+margin:10px;
+}
+
+nav a {
+color:white;
+text-decoration:none;
+}
+
+.Professionell {
+height:400px;
+background-image: url(images/construction-workers-isometric-composition-with-builders-renovating-flat-vector-illustration_1284-69944.avif);
+background-repeat: no-repeat;
+background-size: fill;
+display:flex;
+justify-content:center;
+align-items:center;
+color: black;
+}
+
+
+.info {
+background:#eee6e6;
+margin:20px;
+padding:20px;
+border-left:5px solid orangered;
+font-size: large;
+}
+/* informationen i ruturna färger och storlek  */
+
+.bilder {
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+/* storleken på bilderna i utförda arbeten  */
+.arbeten{
+    margin-left: 10px;
+}
+
+.bilder img {
+width:500px;
+}
+
+
+.fade-in {
+opacity:0;
+animation: fadeIn 6s forwards;
+}
+
+@keyframes fadeIn {
+to {opacity:1;}
+}
+/* hela sidan tar 6 sekunder för att synas helt */
+
+.kontakt{
+    color: orangered;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+
+footer {
+background:black;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+
+
+@media (max-width: 1850px) {
+    #prmk {
+      display: none;
+    }
+  }
+  /* "Professionell renovering med kvalitet" försvinner när sidan är mindre */
