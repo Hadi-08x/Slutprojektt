@@ -22,6 +22,7 @@
           <li><a href="html/arbeten.html">Arbeten</a></li>
           <li><a href="html/kontakt.html">Kontakt</a></li>
          </ul>
+         <p id="date"></p>
       </nav>
      </header>
 
@@ -63,5 +64,15 @@
     <p>&copy; 2026 MahMan Renovering</p>
 </footer>
 
+<script>    
+  const dateElement = document.getElementById('date');
+  
+  const today = new Date();
+  
+  dateElement.innerHTML =
+      "Dagens datum: " +
+      today.toLocaleDateString('sv-SE');</script>
+      <!-- datum -->
+      
 </body>
 </html>
