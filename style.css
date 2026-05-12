@@ -54,9 +54,10 @@ font-size: large;
 .bilder {
 display:flex;
 gap:10px;
-flex-wrap:wrap;
+flex-wrap:wrap; 
 margin-bottom: 10px;
 margin-left: 10px;
+width: 100px;
 }
 /* storleken på bilderna i utförda arbeten  */
 .arbeten{
