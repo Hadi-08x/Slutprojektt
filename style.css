@@ -51,15 +51,7 @@ font-size: large;
 }
 /* informationen i ruturna färger och storlek  */
 
-.bilder {
-display:flex;
-gap:10px;
-flex-wrap:wrap; 
-margin-bottom: 10px;
-margin-left: 10px;
-/* width: 100%; */
 
-}
 /* storleken på bilderna i utförda arbeten  */
 .arbeten{
     margin-left: 10px;
